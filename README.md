@@ -10,7 +10,7 @@ Link to project: https://nyt-rc.netlify.app
 ## How It's Made:
 Tech used: HTML, CSS
 
-In this project, I dove deep into my understanding of CSS layouts and used floats to design the finished product.
+I dove deep into my understanding of CSS layouts and used floats to design the finished product.
 
 ## Lessons Learned:
 By the time I made this mockup, I had already completed 5 similar projects practicing CSS layout. During the creation of this site, I became more adept at detecting my mistakes and solidifying my knowledge of the rules and restrictions of different CSS properties.
