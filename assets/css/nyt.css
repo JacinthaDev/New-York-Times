@@ -1,0 +1,798 @@
+*{
+    box-sizing: border-box;
+
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.fa-bars{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.show-now, .show-at-935{
+    display: none;
+}
+
+.firstnav, .second-nav{
+    float: left;
+    width: 100%;
+}
+
+.nav1{
+    float:left;
+    width: 33.3333%;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.nav2{
+    float:left;
+    width: 33.3333%;
+    margin-top: 10px;
+    text-align:center;
+}
+
+
+.nav3{
+    float:right;
+    width: 33.3333%;
+    text-align:right;
+}
+
+.nav3 button, .show-at-935 button{
+    background: rgb(86, 123, 149);
+    border: 1px solid rgb(50, 104, 145);
+    border-radius: 3px;
+    padding: 8px 12px;
+    font-family: 'Libre Franklin', sans-serif;
+    margin-right: 7px;
+    margin-top: 5px;
+    font-size: 11px;
+    color: white;
+    height: 29px;
+}
+
+.nav2 li{
+    padding: 0 5px;
+    font-size: 10px;
+    
+}
+
+.fa{
+    padding-left: 10px;
+
+}
+
+.second-nav{
+    height: 120px;
+    width: 100%;
+
+    margin-top: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.nyt-logo{
+    float: left;
+
+}
+
+
+
+.date-weather{
+    width:30%;
+    margin-left: 10px;
+    font-size: 12px;
+    float: left;
+
+}
+
+.weather{
+    float: right;
+    padding-bottom: 20px;
+}
+
+
+
+.bold-words{
+    font-weight: bold;
+
+}
+
+.third-nav{
+    clear: both;
+}
+
+.third-nav ul{
+    padding: 1rem 0;
+    text-align: center;
+    margin: 0;
+}
+
+.third-nav ul li a{
+    padding: 10px 5px;
+
+}
+
+.border{
+    height: 1px;
+    width: 100%;
+    background: white;
+    border-bottom: 2px solid black;
+    clear: both;
+    padding-bottom: 1px;
+}
+
+
+.left{
+    float: left;
+    width: 65%;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    padding-right: 7px;
+
+
+}
+
+
+.right{
+    float: right;
+    width: 35%;
+
+    
+}
+
+.no-img{
+    float: left;
+    width:35%;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+.cooking{
+    border-left: 1px solid lightgrey;
+    padding-left:5px ;
+}
+
+.real-estate{
+    padding-right: 5px;
+}
+
+.big-img{
+    float: right;
+    width:65%;
+    
+}
+
+h2{
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+h3{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.no-img p{
+    font-size: 14px;
+}
+
+.no-img span{
+    font-size: 10px;
+}
+
+
+.no-img p, .no-img span, .madrid p, .right-top span, .right-bottom span{
+    color: rgb(144, 144, 144);
+}
+
+.big-img img{
+    width: 100%;
+    height: 500px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+.bottom{
+    clear: both;
+    margin-top: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px ;
+    overflow: auto;
+}
+
+.right-top{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+.madrid{
+    border-bottom: 1px solid lightgrey;
+    width:100%;
+    padding-top: 5px;
+}
+
+/* .left{
+    border-bottom: 1px solid black;
+}
+ */
+
+.small-imgs-right article{
+    float: left;
+    width: 50%;
+    padding: 10px 5px;
+
+}
+
+.small-imgs-right{
+    overflow: auto;
+}
+
+.right{
+    border-left: 1px solid lightgrey;
+    margin-top: 15px;
+    padding: 0 10px;
+}
+
+.garden{
+    border-left: 1px solid lightgrey;
+    padding: 5px 0px 5px 10;
+}
+
+.right-bottom{
+    border-top: 1px solid lightgray;
+    clear: both;
+    padding: 0 5px;
+}
+
+h4{
+    padding-left: 20px;
+    margin: 0;
+}
+.right-bottom article{
+    float: left;
+    padding-left: 20px;
+}
+
+.right-bottom img{
+    float: right;
+    width:30%;
+}
+
+.charles{
+    float: left;
+    width: 70%;
+
+}
+
+.charles-container img{
+    width: 80px;
+    height: 100px;
+    padding: 10px 0;
+    margin-left: 6rem;
+}
+
+.pamela{
+    float: left;
+    padding-top: 5px;
+    
+}
+
+.pamela1 img{
+    width: 100px;
+    height: 100px;
+    padding: 10px 0;
+
+
+}
+
+.pamela1{
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    width: 100%;
+}
+
+
+.right-bottom h2{
+    margin:0;
+}
+
+
+@media only screen and (max-width: 1763px)  {
+    .charles-container img {
+        margin-left: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1400px)  {
+    .weather, .cut, .cut2, .bottom{
+        display: none;
+    }
+
+    .show-now{
+        display: block;
+    }
+
+    .big-img {
+        float: left;
+        width: 100%;
+    }
+
+    .no-img {
+        width:100%;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1228px)  {
+    .weather, .cut, .cut2, .bottom, .small-imgs-right{
+        display: none;
+    }
+
+    .show-now{
+        display: block;
+    }
+
+    .big-img {
+        float: left;
+        width: 100%;
+    }
+
+    .no-img {
+        width:100%;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    .madrid {
+        border-bottom: none;
+        padding: 0rem 0 4rem 1rem;
+
+    }
+
+    .right-bottom h4{
+        padding-top: 2rem;
+    }
+
+    .madrid img{
+        width: 100%;
+    }
+
+    .nyt-logo img{
+        width: 75%;
+    }
+}
+
+
+
+@media only screen and (max-width: 1077px)  {
+    .weather, .cut, .cut2, .bottom, .small-imgs-right{
+        display: none;
+    }
+
+    .show-now{
+        display: block;
+    }
+
+    .big-img {
+        float: left;
+        width: 100%;
+    }
+
+    .no-img {
+        width:100%;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    .madrid {
+        border-bottom: none;
+        padding: 0rem 0 4rem 1rem;
+
+    }
+
+    .right-bottom h4{
+        padding-top: 2rem;
+    }
+
+    .madrid img{
+        width: 100%;
+    }
+
+    .nyt-logo img{
+        width: 75%;
+    }
+
+    .nyt-logo{
+        width: 50%;
+    }
+}
+
+
+@media only screen and (max-width: 1028px)  {
+    .charles-container img{
+        width: 60px;
+    }
+
+}
+
+@media only screen and (max-width: 1028px)  {
+    .weather, .cut, .cut2, .bottom, .small-imgs-right, .real-estate, .ukraine{
+        display: none;
+    }
+
+    .show-now{
+        display: block;
+    }
+
+    .big-img {
+        float: left;
+        width: 100%;
+    }
+
+    .no-img {
+        width:100%;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    .madrid {
+        border-bottom: none;
+        padding: 0rem 0 4rem 1rem;
+
+    }
+
+    .right-bottom h4{
+        padding-top: 2rem;
+    }
+
+    .madrid img{
+        width: 100%;
+    }
+
+    .nyt-logo img{
+        width: 75%;
+    }
+
+    .nyt-logo{
+        width: 50%;
+    }
+
+    .pamela1{
+        padding-top: 2rem;
+    }
+
+    .charles-container{
+        padding-bottom: 2rem;
+
+    }
+
+
+    .left{
+        border-bottom: none;
+    }
+}
+
+@media only screen and (max-width: 935px) and (min-width: 845px) {
+    .weather, .cut, .cut2, .bottom, .small-imgs-right, .real-estate, .ukraine, .cut3, .date-weather{
+        display: none;
+    }
+
+    .show-now{
+        display: block;
+    }
+
+    .big-img {
+        float: left;
+        width: 100%;
+    }
+
+    .big-img img {
+        width: 90%;
+        margin-left: 4rem;
+        padding-top: 20px;
+    }
+
+    .no-img {
+        width:100%;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    .madrid {
+        border-bottom: none;
+        padding: 1rem 0 4rem 1rem;
+        
+
+    }
+
+    .right-bottom h4{
+        padding-top: 2rem;
+    }
+
+    .madrid img{
+    width: 80%;
+    margin-left: 2rem;
+}
+
+    .nyt-logo img{
+        width: 75%;
+        padding-top: 2rem;
+    }
+
+    .nyt-logo{
+        width: 50%;
+        text-align: center;
+        margin-left: 15rem;
+    }
+
+    .pamela1{
+        padding-top: 2rem;
+    }
+
+    .charles-container{
+        padding-bottom: 2rem;
+
+    }
+
+
+    .left{
+        border-bottom: none;
+    }
+
+    .nav2 li {
+        padding: 0 2px;
+    }
+
+    .left, .right{
+        float: left;
+        width: 100%;
+    }
+
+    .right{
+        border-top: 1px solid lightgray;
+    }
+
+
+    .charles-container img{
+        width: 100px;
+        margin-left: 3rem;
+    }
+    
+
+}
+
+@media only screen and (max-width: 845px) {
+    .nyt-logo img{
+        width: 100%;
+        margin-left: 14rem;
+        padding-top: 0rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 845px) {
+
+
+
+    .nav1 {
+        float: left;
+        margin-top: 10px;
+        padding-left: 10px;
+    }
+
+    .show-at-935{
+        display: block;
+        clear:both;
+        margin-left: 20rem;
+    }
+
+    .weather, .cut, .cut2, .bottom, .small-imgs-right, .real-estate, .ukraine, .cut3, .date-weather, .nav3{
+        display: none;
+    }
+
+
+    .nav2{
+    width: 100%;
+    margin-top:0;
+}
+
+.nav1{
+    width: auto;
+}
+
+.nyt-logo img{
+    width: 100%;
+    margin-left: 14rem;
+    padding-top: 0rem;
+}
+
+.madrid {
+    border-bottom: none;
+    padding: 1rem 0 4rem 1rem;
+    
+
+}
+
+.right-bottom h4{
+    padding-top: 2rem;
+}
+
+.madrid img{
+width: 80%;
+margin-left: 2rem;
+}
+
+.nyt-logo img{
+    width: 75%;
+    padding-top: 2rem;
+}
+
+.nyt-logo{
+    width: 50%;
+    text-align: center;
+    margin-left: 3rem;
+}
+
+.pamela1{
+    padding-top: 2rem;
+}
+
+.charles-container{
+    padding-bottom: 2rem;
+
+}
+
+
+.left{
+    border-bottom: none;
+}
+
+.nav2 li {
+    padding: 0 2px;
+}
+
+.left, .right{
+    float: left;
+    width: 100%;
+}
+
+.right{
+    border-top: 1px solid lightgray;
+}
+
+
+.charles-container img{
+    width: 100px;
+    margin-left: 3rem;
+}
+
+}
+
+@media only screen and (max-width: 760px){
+    
+    .nyt-logo img {
+    width: 100%;
+    margin-left: 7rem;
+    padding-top: 0;
+
+}
+
+.show-at-935{
+    margin-left: 15rem;
+
+
+}
+}
+
+
+@media only screen and (max-width: 710px) {
+    
+
+
+    .nyt-logo img{
+        width: 100%;
+        margin-left:7rem;
+    }
+    
+
+
+}
+
+@media only screen and (max-width: 680px) {
+
+    .nyt-logo img{
+        width: 100%;
+        margin-left:7rem;
+    }
+    
+    .show-at-935{
+        margin-left: 13rem;
+    
+    
+    }
+
+
+}
+
+@media only screen and (max-width: 569px) {
+
+    .left, .right{
+        float: left;
+        width:100%;
+    }
+
+    .show-at-935{
+        width: 100%;
+        clear: both;
+        text-align: center;
+        margin-left: 0rem;
+    }
+
+    .nyt-logo img{
+        width: 100%;
+        margin-left: 5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .fa-bars{
+        display: block;
+    }
+
+    .third-nav{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 514px) {
+.nyt-logo img {
+
+    margin-left: 5rem;
+
+}
+}
+
+@media only screen and (max-width: 460px){
+    
+    .nyt-logo img {
+    width: 100%;
+    margin-left: 7rem;
+    margin-bottom: 0.5rem;
+}
+}
+
+
+@media only screen and (max-width: 420px) {
+
+    .left, .right{
+        float: left;
+        width:100%;
+    }
+
+    .show-at-935{
+        width: 100%;
+        clear: both;
+        text-align: center;
+        margin-left: 0rem;
+    }
+
+    .nyt-logo img {
+        width: 100%;
+        margin-left: 4rem;
+    }
+
+}
